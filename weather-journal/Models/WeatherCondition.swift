@@ -34,8 +34,6 @@ class WeatherCondition: NSObject {
     Takes a wunderground JSON dict representation and turns it into a cocoa touch dictionary.
     
     :param: jsonDict of wunderground condition
-    
-    :returns: cocoa touch wunderground weather condition
     */
     init(jsonDict : NSDictionary) {
         self.feelsLikeF = jsonDict.objectForKey("feelslike_f") as! NSString
