@@ -52,8 +52,7 @@ class PostFeedTableViewController: UITableViewController {
         postTableViewCell.textLabel!.text = post.displayTitle()
         postTableViewCell.detailTextLabel!.text = post.text;
         postTableViewCell.prominentLabel!.text = post.dayOfMonthString()
-        postTableViewCell.prominentSubLabel!.text = post.weatherDisplayString() as String
-
+        postTableViewCell.prominentSubLabel!.text = post.weatherDisplayString() as String        
         return postTableViewCell
     }
     
