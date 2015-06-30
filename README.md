@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lukegeiger/KamcordExample/master/kamcord-screen.png">
+  <img src="https://raw.githubusercontent.com/lukegeiger/todayjournal/master/screenshot.png">
 </p>
 
 # Today Journal
