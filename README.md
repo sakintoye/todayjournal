@@ -1,9 +1,10 @@
 
+# Today Journal
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/lukegeiger/todayjournal/master/screenshot.png">
 </p>
 
-# Today Journal
 A simple app where a person can blog about a few things that happen during the day. It also records weather! Done in Swift. Used Parse. Inspired by Viacom Labs.
 
 # Possible Improvements
@@ -20,3 +21,5 @@ A simple app where a person can blog about a few things that happen during the d
 # Backend & Data Store
 The backend of this app is Parse. For more information on how Parse works, check out their website Parse.com
 
+# Weather Underground
+For weather, I am using the Weather Underground API
