@@ -155,13 +155,11 @@ class CreatePostViewController: UIViewController,UITextViewDelegate {
                                 println("Error:" + error.localizedDescription)
                                 completion(result: nil)
                         })
-
                     }
                     else{
                         println("Could not get location:")
                         completion(result: nil)
                     }
-
                 },
                 failure: {
                     (operation: AFHTTPRequestOperation!,error: NSError!) in

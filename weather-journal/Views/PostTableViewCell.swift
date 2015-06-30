@@ -61,7 +61,6 @@ class PostTableViewCell: UITableViewCell {
         self.detailTextLabel?.x = self.textLabel!.x
         self.detailTextLabel?.width = self.textLabel!.width
         self.detailTextLabel?.y = self.textLabel!.bottomY;
-        
     }
-
+    
 }

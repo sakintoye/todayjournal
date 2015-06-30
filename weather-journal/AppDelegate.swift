@@ -40,6 +40,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func appearance(){
         var navigationBarAppearace = UINavigationBar.appearance()
         navigationBarAppearace.titleTextAttributes = [NSFontAttributeName:UIFont.boldAppFontOfSize(16)]
+        
+        var barButtonApperance = UIBarButtonItem.appearance()
+        barButtonApperance.setTitleTextAttributes( [NSFontAttributeName:UIFont.appFontOfSize(16),
+                                                    NSForegroundColorAttributeName:UIColor.appBlueColor()]
+                                                    ,forState: UIControlState.Normal)
+
+    
+//        NSDictionary *barFont = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor hmDeepBlueColor], NSForegroundColorAttributeName,[UIFont hmFont:14], NSFontAttributeName, nil];
+//        [[UIBarButtonItem appearance] setTitleTextAttributes:barFont forState:
+        
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
